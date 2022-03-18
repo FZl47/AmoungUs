@@ -1,0 +1,840 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --c-dark: #261A0F;
+    --c-danger: #FF3300;
+    --c-warning: #FFCC33;
+    --c-light: #F5F5F5;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../../Assets/Font/raleway/Raleway.woff") format('woff'),;
+    src: url("../../Assets/Font/raleway/Raleway.ttf") format('truetype');
+    font-style: normal;
+}
+
+html, body {
+    scroll-behavior: smooth !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.bg-dark {
+    background: var(--c-dark) !important;
+}
+
+header {
+    /*72 156 */
+    padding: 50px 156px;
+    background: var(--c-light);
+}
+
+
+.Container {
+    padding: 40px 156px;
+}
+
+header a {
+    width: auto;
+    height: 19px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+    color: var(--c-dark);
+}
+
+.Color-Green{
+	font-size:85%;
+    font-family:Raleway;
+	font-weight:400;
+    color: rgb(12, 247, 196);
+    transition: all .3s;
+}
+
+.Color-Green:hover{
+    color: rgb(12, 247, 190);
+}
+
+.BtnBase {
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 47px;
+    width: 214px;
+    height: 64px;
+    padding: 26px 26px;
+    background: var(--c-warning);
+    color: var(--c-dark);
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28);
+    line-height: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Raleway;
+    text-align: center;
+}
+
+.BtnBase:focus {
+    outline: none;
+}
+
+.BtnBase:hover {
+    text-decoration: none;
+}
+
+.ContainerLogo {
+    background: url("../../Assets/Img/VectorLogo.svg") no-repeat;
+}
+
+.BgEffectDanger_1 {
+    background: url("../../Assets/Img/VectorBgDanger_1.svg") no-repeat center;
+}
+
+.BgEffectDanger_2 {
+    background: url("../../Assets/Img/VectorBgDanger_2.svg") no-repeat center;
+}
+
+.BgEffectDanger_3 {
+    background: url("../../Assets/Img/VectorBgDanger_3.svg") no-repeat center;
+}
+
+.VectorBgDanger_4 {
+    background: url("../../Assets/Img/VectorBgDanger_4.svg") no-repeat center;
+}
+
+.VectorBgDanger_5 {
+    background: url("../../Assets/Img/VectorBgDanger_5.svg") no-repeat center;
+}
+
+.VectorBgDanger_6 {
+    background: url("../../Assets/Img/VectorBgDanger_6.svg") no-repeat center;
+}
+
+.VectorBgDanger_7 {
+    background: url("../../Assets/Img/VectorBgDanger_7.svg") no-repeat center;
+}
+
+.VectorBgDanger_8 {
+    background: url("../../Assets/Img/VectorBgDanger_8.svg") no-repeat center;
+}
+
+.VectorBgDanger_9 {
+    background: url("../../Assets/Img/VectorBgDanger_9.png") no-repeat center;
+    background-size: 100%;
+}
+
+.VectorBgDanger_10 {
+    background: url("../../Assets/Img/VectorBgDanger_10.svg") no-repeat center;
+}
+
+.ContainerLinksHeader_2{
+    display: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.ContainerTitleAmont {
+    position: relative;
+    overflow: visible;
+}
+
+.ContainerTitleAmont:before {
+    content: "";
+    background: url("../../Assets/Img/Misc_01.svg") no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.ContainerTitleAmont:after {
+    content: "";
+    background: url("../../Assets/Img/Misc_02.svg") no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 0;
+    bottom: 0;
+}
+
+.TitleAmont {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--c-dark);
+}
+
+.DesTitleAmont {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: var(--c-dark);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 18px;
+}
+
+.ContainerTitleAmont img {
+    position: absolute;
+    right: 20%;
+    bottom: -75%;
+}
+
+
+.BtnGetStart {
+    width: 129px;
+    height: 64px;
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28), 0px 4px 4px rgba(38, 26, 15, 0.25);
+    border-radius: 47px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transform: translateY(28px);
+}
+
+.ContentTitleAmont {
+    margin-top: 100px;
+}
+
+.ContentTitleAmont p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--c-dark);
+}
+
+.ContainerReadPorject {
+    width: 72%;
+    padding: 0;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContainerReadPorject img {
+    transform: translateX(-50%);
+}
+
+
+.ContainerReadPorject > div:first-of-type {
+    background: var(--c-light);
+    padding: 56px;
+    width: 92%;
+    border-radius: 27px;
+}
+
+.ContainerReadPorject p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: var(--c-dark);
+    display: inline-block;
+    text-align: left;
+}
+
+
+.ContainerBuy {
+    margin-top: 150px;
+    background: var(--c-warning);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContainerBuy > div {
+    padding: 94px 156px;
+}
+
+.ContainerBuy h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--c-dark);
+}
+
+.ContainerBuy p {
+    margin-top: 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--c-dark);
+}
+
+.ContainerInputBuy {
+    background: #ffffff;
+    border-radius: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.ContainerInputBuy::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../Assets/Img/Icon/Highlight_05.svg") no-repeat;
+    left: -20px;
+    top: -10px;
+    z-index: -1;
+}
+
+.ContainerInputBuy input {
+    border: none;
+    outline: none;
+    width: 100px;
+    background: initial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContainerInputBuy .BtnBase {
+    background: var(--c-danger);
+    box-shadow: -4px 16px 32px rgba(255, 51, 0, 0.28);
+    border-radius: 48px;
+    width: 96px;
+    height: 64px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+
+.ContainerAboutUs {
+    width: 72%;
+    margin-top: 120px;
+    border-radius: 27px;
+    background: var(--c-light);
+    padding: 28px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContainerAboutUs div {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--c-dark);
+    padding-right: 65px;
+}
+
+.ContainerAboutUs .BtnBase {
+    width: 153px;
+    height: 70px;
+    background: #FFCC33;
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28);
+    border-radius: 47px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 12px;
+    color: var(--c-dark);
+}
+
+.ContainerAirDrop {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--c-warning);
+}
+
+.ContainerAirDrop > div {
+    padding-left: 150px;
+}
+
+.ContainerAirDrop > div > p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: var(--c-dark);
+}
+
+.ContainerAirDrop h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--c-dark);
+    display: inline-block;
+}
+
+.ContainerAirDrop p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: var(--c-dark);
+}
+
+.ContainerAirDrop img {
+    height: 103%;
+    margin-top: -3%;
+}
+
+
+.ItemTimerAirDrop {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--c-dark);
+    display: inline-block;
+    text-align: center;
+}
+
+.ItemTimerAirDrop span {
+    border: 1.5px solid var(--c-dark);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding: 13px;
+    margin: 0 8px;
+    margin-bottom: 5px;
+}
+
+.BtnAirDrop {
+    padding: 26px 32px;
+    width: 150px;
+    height: 64px;
+    color: #ffffff;
+    background: var(--c-danger);
+    box-shadow: -4px 24px 32px rgba(255, 51, 0, 0.28);
+    border-radius: 47px;
+    margin-top: 32px;
+}
+
+.ContainerInvite {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContainerInvite h1 {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--c-dark);
+}
+
+.ContainerInvite p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: var(--c-dark);
+}
+
+.BtnAddressBEP {
+    width: 247px;
+    height: 64px;
+    border: 1px solid #261A0F;
+    border-radius: 41px;
+    background: none;
+    box-shadow: none;
+}
+
+.BtnCopy {
+    padding: 20px 32px;
+    width: 155px;
+    height: 64px;
+    background: var(--c-warning);
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28);
+    border-radius: 47px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 12px;
+    color: var(--c-dark);
+    margin: 0 8px;
+}
+
+.ContainerBSC {
+    margin-top: 150px;
+    text-align: center;
+    scroll-snap-type: x mandatory;
+}
+
+.ContainerBSC h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--c-dark);
+    display: inline-block;
+}
+
+.BscDetails {
+    margin-top: 60px;
+    height: 160px;
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-snap-align: start;
+}
+
+.BscDetails::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+}
+
+.BscDetails::-webkit-scrollbar-track {
+    background: #d4d4d4;
+    margin-right: 2px;
+}
+
+
+.BscDetails::-webkit-scrollbar-thumb {
+        background: var(--c-warning);
+}
+
+.BscDetails::-webkit-scrollbar-thumb:hover {
+    background: #edbb32;
+}
+
+
+
+.BscDetail {
+    width: 270px;
+    height: 120px;
+    margin: 0 4px;
+    padding: 24px;
+    background: #F5F5F5;
+    border-radius: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.BscDetail p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--c-dark);
+}
+
+.PercentDetial {
+    position: absolute;
+    bottom: -12px;
+    width: 85%;
+    left: 7.5%;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.PercentDetial div {
+    height: 15px;
+    border-radius: 50px;
+    background: var(--c-danger);
+}
+
+
+.ContainerBSC .BtnBase {
+    margin-top: 60px;
+    padding: 20px 24px;
+    width: 331px;
+    height: 64px;
+    background: var(--c-warning);
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28);
+    border-radius: 47px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 12px;
+    color: var(--c-dark);
+}
+
+.ContianerRoadMap {
+    margin-top: 150px;
+}
+
+.ContianerRoadMap h1 {
+    display: inline-block;
+}
+
+.RoadMaps {
+    margin-top: 70px;
+}
+
+.RoadMap {
+    width: 352px;
+    height: 336px;
+    background: rgba(245, 245, 245, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 18px;
+}
+
+.RoadMap > div {
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding-top: 110px;
+}
+
+
+.RoadMap_Q1 {
+    background: url("../../Assets/Img/Design/ImageRoadMap_Q1.png");
+}
+
+
+.RoadMap_Q2_Q3 {
+    background: url("../../Assets/Img/Design/ImageRoadMap_Q2_Q3.png") no-repeat center;
+    background-size: 140%;
+    width: 352px;
+    height: 393px;
+    filter: drop-shadow(-8px 32px 32px rgba(38, 26, 15, 0.12));
+    border-radius: 20px;
+    margin: 35px 18px;
+}
+
+.RoadMap_Q2_Q3 > div {
+    backdrop-filter: none;
+    padding-top: 240px;
+}
+
+.RoadMap_Q2_Q3 .TypeRoadMap {
+    background: var(--c-danger);
+    color: #ffffff;
+    left: 38%;
+    width: 87px;
+    height: 40px;
+    border-radius: 32px;
+}
+
+
+.RoadMap_Q4 {
+    background: url("../../Assets/Img/Design/ImageRoadMap_Q4.png");
+}
+
+
+.TypeRoadMap {
+    position: absolute;
+    width: 43px;
+    height: 40px;
+    left: 44%;
+    top: -20px;
+    padding: 8px;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--c-dark);
+    background: var(--c-warning);
+    border-radius: 32px;
+}
+
+.TitleRoadMap {
+    background: #FFFFFF;
+    border-radius: 32px;
+    width: 70%;
+    margin: auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 7px;
+    color: var(--c-dark);
+    margin-bottom: 20px;
+}
+
+.Description_RoadMap {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 14px 18px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--c-dark);
+}
+
+.ContainerInvestor {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.ContainerInvestor h1 {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--c-dark);
+}
+
+.ContainerPlayAmongUs {
+    margin-top: 160px;
+    text-align: center;
+}
+
+.ContainerPlayAmongUs h1 {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--c-dark);
+}
+
+.BtnsPlayGame {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.BtnsPlayGame .BtnBase {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 12px;
+    color: var(--c-dark);
+    width: auto;
+    padding: 18px 27px;
+    margin: 28px 7px;
+}
+
+.BtnsPlayGame img {
+    display: block;
+    margin: auto;
+    margin-top: -33px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #f5f5f5;
+    margin-top: 60px;
+    padding: 112px 156px;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--c-dark);
+}
+
+.BtnsSocialMedia .BtnBase {
+    width: 64px;
+    height: 64px;
+    background: var(--c-warning);
+    box-shadow: -4px 24px 32px rgba(254, 221, 50, 0.28);
+    border-radius: 47px;
+    text-align: center;
+    padding: 20px 16px;
+    margin: 6px;
+}
+
+.CopyRight {
+    border-top: 0.5px solid rgba(38, 26, 15, 0.4);
+    padding-top: 65px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.CopyRight p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    color: var(--c-dark);
+}
+

@@ -1,0 +1,249 @@
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1500px) {
+
+    .Container {
+        padding: 40px 50px;
+    }
+
+    .BtnGetStart {
+        transform: translateY(18px);
+    }
+
+    .ContainerAboutUs div {
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 1330px) {
+
+    .Container {
+        padding: 40px 30px;
+    }
+
+    .ContainerAboutUs {
+        width: 85%;
+    }
+
+    .ContainerReadPorject {
+        width: 85%;
+    }
+
+    .ContainerBuy {
+        display: block;
+    }
+
+    .ContainerBuy > div {
+        padding: 50px 156px;
+        width: 100% !important;
+    }
+
+    .ContainerAboutUs div {
+        padding-right: 0;
+    }
+
+    .ContainerAirDrop {
+        display: block;
+        text-align: right;
+    }
+
+    .ContainerAirDrop > div {
+        padding: 20px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .ContainerAirDrop img {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .ContainerInvite img {
+        width: 40%;
+    }
+
+    .RoadMaps img {
+        display: none;
+    }
+
+    .RoadMap {
+        display: block;
+        margin: 38px auto;
+        height: 336px;
+    }
+
+    .RoadMap > div {
+        padding-top: 110px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        padding: 25px 30px;
+    }
+
+    footer {
+        padding: 25px 30px;
+    }
+
+    .Container {
+        padding: 20px 15px;
+    }
+
+    .ContainerInvite img {
+        display: none;
+    }
+
+    .ContainerInvite {
+        text-align: center;
+    }
+
+    .ContainerInvite p {
+        width: 95% !important;
+        margin: auto;
+    }
+
+    .ContainerAboutUs {
+        width: 100%;
+    }
+
+    .ContainerReadPorject {
+        width: 100%;
+    }
+
+    .ContainerReadPorject > div {
+        padding: 25px !important;
+    }
+
+    .ContainerReadPorject > div:first-of-type {
+        width: 95% !important;
+    }
+
+    .ContainerReadPorject > div:last-of-type {
+        width: 2% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ContainerLinksHeader_1 {
+        display: none;
+    }
+
+    .ContainerLinksHeader_2 {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    .ContainerBuy > div {
+        width: 100% !important;
+        padding: 50px !important;
+    }
+
+    .ContainerAboutUs > div {
+        padding: 25px;
+        text-align: center;
+        line-height: 43px;
+    }
+
+    .ContainerAboutUs img {
+        display: none;
+    }
+
+    .ContainerAirDrop .d-flex {
+        display: block !important;
+    }
+
+    .ContainerAirDrop p {
+        margin-top: 20px;
+    }
+
+    #BtnCopy {
+        margin-top: 15px;
+    }
+
+    .ContainerTitleAmont img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 30px 10px;
+    }
+
+
+    header .BtnBase {
+        width: auto;
+        height: auto;
+        padding: 12px;
+        line-height: initial;
+    }
+
+    .Container {
+        overflow-x: hidden;
+        padding: 10px;
+    }
+
+    .BscDetails .BtnBase {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .RoadMap {
+        width: 97%;
+    }
+
+    .TitleRoadMap {
+        width: 90%;
+    }
+
+    .Description_RoadMap {
+        width: 94%;
+    }
+
+    .ContainerBuy {
+        padding: 30px 20px;
+    }
+
+    .ContainerBuy > div {
+        padding: 10px !important;
+    }
+
+    .BtnsPlayGame .BtnBase {
+        display: block;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .ContainerAboutUs div{
+        font-size: 25px;
+    }
+
+    .ContainerAboutUs{
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    header .BtnBase{
+        font-size: 15px!important;
+    }
+
+    .BtnsPlayGame .BtnBase {
+        width: 95%;
+    }
+}
